@@ -18,7 +18,7 @@
 # MVP/PostMVP 
   
 # MPV 
-  The first deploymen app will include the functionality to search covid case date and testing sites for chicago.
+  The first deployment app will include the functionality to search covid case data and testing sites for chicago.
   
 # Post MPV 
   I would like to intergarate a map for testing site locations with google maps api.

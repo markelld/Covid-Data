@@ -1,6 +1,3 @@
- 
-# Project Overview
-
 # Project Name 
   Covid-Data
 

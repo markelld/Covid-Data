@@ -18,7 +18,7 @@
 # MVP/PostMVP 
   
 # MPV 
-  This app will include the abilty to search past weeks covid data and testing site location by zipcode for chicago.  
+  The first deploymen app will include the functionality to search covid case date and testing sites for chicago.
   
 # Post MPV 
   I would like to intergarate a map for testing site locations with google maps api.

@@ -3,7 +3,7 @@
 
 # Project Description
 
- This app will consist of covid case data which can be searched based on zip code for past week , along with closets test sites  by there zip code for Chicago.
+ This app will consist of covid case data which can be searched based on zip code for past week , along with closest test sites  by there zip code for Chicago.
 
 # API and Data Sample 
  Test Sites

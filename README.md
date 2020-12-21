@@ -1,4 +1,4 @@
-# Timeframes 
+# Schedule
 |  Day | Deliverable | Status
 |---|---| ---|
 |Dec 18| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete

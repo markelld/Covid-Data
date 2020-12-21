@@ -7,21 +7,30 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css"> 
-    <script src="app.js" async defer></script> 
+    <script defer src="app.js"  ></script> 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
   </head>
   <body> 
-    <div>
-      <img id="photo" src="sitephoto.jpg" width="80%" height="400px"/> 
-      <p>info site</p>
+    <div id="image-container">
+      <img id="photo" src="sitephoto.jpg" width="80%" height="auto"/> 
+      <p>This site is specifically tailored to search Covid rates and nearest testing sites for Chicago. 
+        The search bars use your zip code to pull data for specific regions of the chicago area.
+      </p>
     </div> 
-    <div id="covid">Covid Data 
-      <input> 
-      <p></p>
+    <div class="data-container"> 
+      <form>
+      <input type="text" placeholder="zipcode" > 
+      <input type="submit">
+      <p>Covid Data</p>
+      </form>
     </div> 
-    <div id="Testing"> Testing Sites
-      <input> 
-      <p>hello</p>
+    <div class="data-container"> 
+      <form> 
+        <input type="text" placeholder="zipcode">  
+        <input type="submit">
+        <p>Testing</p>
+      </form>
     </div>
     </body>
 </html>

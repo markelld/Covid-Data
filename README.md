@@ -22,3 +22,6 @@
   
 # Post MPV 
   I would like to intergarate a map for testing site locations with google maps api.
+
+# Priority Matrix 
+  ![priority matrix](https://github.com/markelld/Covid-Data/blob/main/image_67133953.JPG)

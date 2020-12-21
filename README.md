@@ -1,3 +1,13 @@
+# Timeframes 
+|  Day | Deliverable | Status
+|---|---| ---|
+|Dec 18| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Dec 21| Project Approval | Incomplete
+|Dec 22| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Dec 23| Pseudocode / actual code | Incomplete
+|Jan 4| MVP | Incomplete
+|Jan 5| Presentations | Incomplete
+
 # Project Name 
   Covid-Data
 
@@ -25,5 +35,8 @@
   ![priority matrix](https://github.com/markelld/Covid-Data/blob/main/image_67133953.JPG) 
   
 # Wireframes 
-  ![Wireframes](https://github.com/markelld/Covid-Data/blob/main/COVID%20APP.png)
+  ![Wireframes](https://github.com/markelld/Covid-Data/blob/main/COVID%20APP.png) 
+  
+# Timeframes 
+  ![Timeframes](https://github.com/markelld/Covid-Data/blob/main/Timeframes%20.pages)
 

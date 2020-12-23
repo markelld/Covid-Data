@@ -1,6 +1,9 @@
 body { 
-  font-family: 'Josefin Slab', serif;  
-  margin:0;
+  font-family: 'Josefin Slab', serif;   
+  width:100%; 
+  height:100%;
+  margin:0; 
+
 }  
 #image-container { 
   padding:20px;
@@ -15,8 +18,9 @@ body {
   border-radius:5px;
 }
 .data-container {
-  display: flex;  
-  justify-content:  space-evenly; 
+  display: flex;   
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
   width: 100%; 
   height: 200px;  
   } 
@@ -36,8 +40,27 @@ body {
   color: white; 
   text-decoration:none;
 }  
+.footer {  
+  display: flex; 
 
+  width:100%; 
+  height:100px; 
+  background-color: black;
+  padding:0; 
+}  
 
 ul {
   list-style: none;
+}   
+
+/* #covid-form {
+  border: orangered 2rem;
+} */ 
+
+/* @media screen and (min-width:540px) {
+
+.data-container {
+  flex-wrap: wrap;
 }
+} */ 
+

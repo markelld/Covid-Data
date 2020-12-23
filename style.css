@@ -1,8 +1,8 @@
 body { 
   font-family: 'Josefin Slab', serif;   
   width:100%; 
-  height:100%;
-  margin:0; 
+  height:100vh;
+  margin:0;  
 
 }  
 #image-container { 
@@ -19,10 +19,14 @@ body {
 }
 .data-container {
   display: flex;   
-  flex-wrap: wrap;
-  justify-content: space-evenly; 
-  width: 100%; 
-  height: 200px;  
+  flex-direction: column;
+  justify-content: flex-start;  
+  align-items: flex-start;
+  width: 100%;  
+  margin:0 auto;
+  height:50%;    
+  padding-left: 5px;
+   
   } 
 /* .covid-databox { 
 } 
@@ -32,35 +36,86 @@ body {
 } */
 
 .nav {  
-  display: flex;
+  display: flex; 
+  position: fixed;
   width:100%; 
-  height:100px; 
+  height:8%; 
   background-color: black;
   padding:0; 
   color: white; 
-  text-decoration:none;
+  text-decoration:none; 
 }  
 .footer {  
   display: flex; 
-
   width:100%; 
-  height:100px; 
+  height:8%; 
   background-color: black;
-  padding:0; 
+  padding:0;  
 }  
 
 ul {
-  list-style: none;
+  list-style: none;  
 }   
 
 /* #covid-form {
   border: orangered 2rem;
 } */ 
 
-/* @media screen and (min-width:540px) {
 
-.data-container {
-  flex-wrap: wrap;
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
 }
-} */ 
 
+input {
+  border-radius: 5px; 
+  text-align: center; 
+  height:20px; 
+} 
+
+.info{
+  border-style: solid; 
+  padding: 5px; 
+} 
+
+#covid-form {
+  width: 100%;
+  height: 35%; 
+}  
+#location-form {
+  width:100%;
+  height:65%;  
+  overflow-y: scroll; 
+}
+
+.main-content {  
+  height: 150vh;  
+  padding-top: 15%;
+}  
+
+@media screen and (min-width:540px) {
+
+  .data-container { 
+    flex-direction: row;  
+    width:100%; 
+    }  
+    #covid-form {
+      padding-left: 10px; 
+    } 
+  } 
+
+/* .testing-databox {
+  overflow-y: scroll; 
+  height: 100%;
+} */
+/* overflow-y: scroll;  */

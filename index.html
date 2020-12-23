@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Chicago Covid Data</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css"> 
-    <script defer src="app.js"  ></script> 
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
-  </head>
-  <body>  
-    <header class="nav">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Chicago Covid Data</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="nav">
     <ul>
       <li>Contact</li>
     </ul>
-    </header>
+  </header>
+  <div class="main-content">
     <div id="image-container">
-      <img id="photo" src="sitephoto.jpg"/> 
-      <p>This site is specifically tailored to search Covid rates and nearest testing sites for Chicago. 
-        The search bar for testing sites in the chicago area can be accessed by zipcode, while the the daily covid rates will use the the specific days date.
+      <img id="photo" src="sitephoto.jpg" />
+      <p class="info">This site is specifically tailored to search Covid rates and nearest testing sites for Chicago.
+        The search bar for testing sites in the chicago area can be accessed by zipcode, while the the daily covid rates
+        can be accessed using a specific date(format is shown in the placeholder). All the information was attained from
+        the Chicago Data Portal, if you have any questions or would like to get in contact please use the link in the
+        header.
       </p>
-    </div>  
-    <div class=data-container>  
-      <form id="covid-form"> 
-        <div class="covid-databox"> 
-          <input  id="covid-search" type="text" placeholder="yr-mth-day" > 
-          <button id="search-1">covid-data</button> 
+    </div>
+    <div class=data-container>
+      <form id="covid-form">
+        <div class="covid-databox">
+          <input id="covid-search" type="text" placeholder="year-month-day">
+          <button id="search-1">Covid-Data</button>
           <div id="Covid"></div>
-        </div> 
+        </div>
       </form>
-      <form id="location-form">  
-        <div class="testing-databox"> 
-          <input id="testing-search" type="text" placeholder="zipcode">  
+      <form id="location-form">
+        <div class="testing-databox">
+          <input id="testing-search" type="text" placeholder="zipcode">
           <button id="search-2">submit</button>
           <div id="Testing"></div>
-       </div>
-      </form> 
-      </div> 
-    </body> 
-    <footer class="footer"></footer>
+        </div>
+      </form>
+    </div>
+  </div>
+  <footer class="footer"></footer>
+</body>
+
 </html>

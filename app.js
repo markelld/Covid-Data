@@ -99,8 +99,8 @@ const removeDate = () => {
 // try for loop .lenght
 const removeLocation = () => {
   const oldChoice = document.querySelector('#Testing') 
-  while (oldChoice.lastChild) {
-    oldChoice.removeChild(oldChoice.lastChild)
+  while (oldChoice.firstChild) {
+    oldChoice.removeChild(oldChoice.firstChild)
   }
 }
 

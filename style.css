@@ -6,8 +6,7 @@ body {
 
 }  
 #image-container { 
-  padding:20px;
-
+  padding:25px;
 } 
 
 #photo { 
@@ -39,27 +38,28 @@ body {
   display: flex; 
   position: fixed;
   width:100%; 
-  height:8%; 
+  height:10%; 
   background-color: black;
   padding:0; 
   color: white; 
   text-decoration:none; 
 }  
 .footer {  
-  display: flex; 
+  display: flex;  
   width:100%; 
-  height:8%; 
+  height:10%; 
   background-color: black;
   padding:0;  
 }  
 
 ul {
   list-style: none;  
-}   
+}  
 
-/* #covid-form {
-  border: orangered 2rem;
-} */ 
+li {
+  padding-top: 10px;
+}
+
 
 
 button {
@@ -99,7 +99,7 @@ input {
 }
 
 .main-content {  
-  height: 150vh;  
+  height: 200vh;  
   padding-top: 15%;
 }  
 
@@ -113,9 +113,3 @@ input {
       padding-left: 10px; 
     } 
   } 
-
-/* .testing-databox {
-  overflow-y: scroll; 
-  height: 100%;
-} */
-/* overflow-y: scroll;  */

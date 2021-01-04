@@ -35,5 +35,5 @@
   ![Wireframes](https://github.com/markelld/Covid-Data/blob/main/COVID%20APP.png) 
   
 # Timeframes 
-  ![Timeframes](https://github.com/markelld/Covid-Data/blob/main/Timeframes.pdf)
+  ![Timeframes](https://github.com/markelld/Covid-Data/blob/main/Timeframes2%20.pdf)
 

@@ -39,5 +39,5 @@
 
 |  Component | Priority | Estimated Time | Time Invested | Actual Time |
 |---|---||---|---| ---| 
-Sudo coding javascript | | | | | 
-Creating html | | | | |
+|Sudo coding javascript | | | | | 
+|Creating html | | | | |

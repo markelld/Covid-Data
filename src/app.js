@@ -61,7 +61,7 @@ const getTesting = async () => {
       let number = document.createElement("p")
       number.innerHTML = site.phone
       contactNumber.appendChild(number)
-      // statement for website if available//include if statement incase website not available
+      // statement for website if available
       let websiteLink = document.querySelector("#Testing")
       let website = document.createElement("a")
       let websiteUrl = website.innerHTML = site.web_site.url

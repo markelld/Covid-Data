@@ -40,3 +40,7 @@
 # Timeframes 
   ![Timeframes](https://github.com/markelld/Covid-Data/blob/main/Timeframes.pdf)
 
+|  Component | Priority | Estimated Time | Time Invested | Actual Time |
+|---|---||---|---| ---| 
+Sudo coding javascript | | | | | 
+Creating html | | | | |

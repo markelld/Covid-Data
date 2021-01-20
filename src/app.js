@@ -14,7 +14,11 @@ const getCovid = async () => {
       // total people hospitalized hospitalizations_total 
       let totalhospitalized = document.querySelector("#Covid")
       let peopleHosp = document.createElement("p")
-      peopleHosp.innerHTML = `Total hospitalized: ${day.hospitalizations_total}`
+      if(!day.hospitalizations_total) {
+        peopleHosp.innerHTML = "Total hospitalized: No Data"
+      } else {
+        peopleHosp.innerHTML = `Total hospitalized: ${day.hospitalizations_total}`
+      }
       totalhospitalized.appendChild(peopleHosp)
 
       // statement to only display day.deaths 

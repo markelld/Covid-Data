@@ -25,7 +25,7 @@
  https://dev.socrata.com/foundry/data.cityofchicago.org/e68t-c7fv
   
 # MVP
-  The first deployment app will include the functionality to search covid case data and testing sites for chicago.
+  The first deployed app will include the functionality to search covid case data and testing sites for chicago.
   
 # Post MVP 
   I would like to intergarate a map for testing site locations with google maps api.

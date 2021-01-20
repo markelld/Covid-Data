@@ -9,7 +9,11 @@ const getCovid = async () => {
       // statement on total cases cases_total  
       let totalCases = document.querySelector("#Covid")
       let casesT = document.createElement("p")
-      casesT.innerHTML = `Total Cases: ${day.cases_total}`
+      if (!day.cases_total) {
+        casesT.innerHTML = "Total Cases: No Data" 
+      } else { 
+        casesT.innerHTML = `Total Cases: ${day.cases_total}`
+        }
       totalCases.appendChild(casesT)
       // total people hospitalized hospitalizations_total 
       let totalhospitalized = document.querySelector("#Covid")
@@ -24,7 +28,11 @@ const getCovid = async () => {
       // statement to only display day.deaths 
       let dayDeaths = document.querySelector("#Covid")
       let deathsT = document.createElement('p')
-      deathsT.innerHTML = `Death Total: ${day.deaths_total}`
+      if (!day.deaths_total) {
+        deathsT.innerHTML = "Deaths Total: No Data"
+      } else {
+        deathsT.innerHTML = `Death Total: ${day.deaths_total}` 
+      }  
       dayDeaths.appendChild(deathsT)
     })
 

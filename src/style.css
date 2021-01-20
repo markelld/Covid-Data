@@ -3,6 +3,7 @@ body {
   width:100%; 
   height:100vh;
   margin:0;  
+  font-size: 12px;
 
 }  
 #image-container { 
@@ -14,7 +15,8 @@ body {
   width: 100%; 
   height:auto; 
   border: 1px solid white; 
-  border-radius:5px;
+  border-radius:5px; 
+  font-size: 12px;
 }
 .data-container {
   display: flex;   
@@ -95,11 +97,13 @@ input {
 
 #covid-form {
   width: 100%;
-  height: 35%;  
+  height: 35%;   
+  font-size: 14px;
 }  
 #location-form {
   width:100%;
-  height:80%;  
+  height:80%;   
+  font-size: 14px;
   overflow-y: scroll; 
 }
 
